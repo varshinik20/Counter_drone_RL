@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+env/
+.env/
+*.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Training Logs & Evaluation Checkpoints
+results/checkpoints/
+results/eval_logs/
+results/tensorboard_logs/
+*.tfevents.*
+
+# System / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

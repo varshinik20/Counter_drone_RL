@@ -1,0 +1,4 @@
+policy,damage_pct,tracking_pct,weapon_utilization_pct
+Classic,0.0,21.09,55.73
+DeepRL,6.19,70.56,250.0
+Random,0.0,76.19,226.42

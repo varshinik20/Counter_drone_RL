@@ -1,0 +1,15 @@
+seed: 42
+algo: ppo
+total_timesteps: 400000
+model_path: results/models/commander_policy
+results_dir: results
+
+scenario:
+  n_enemies: 10
+  n_turrets: 4
+  weapon_range: 52.0
+  cooldown_time: 10
+  max_steps: 600
+  dt: 0.1
+  kill_radius: 11.0
+  max_damage: 100.0
